@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+body{
+    min-width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background : linear-gradient(to right, #12f19c, #45dee9 );
+}
+
+
+.Accueil{
+    display: block;
+    background-color: white;
+    max-width: 300px;
+    margin: auto;
+    padding: 35px 25px;
+    border-radius: 8px;
+
+    
+}
+
+.h1a{
+    font-size: 23px;
+    color: #555555;
+    text-align: center;
+    
+    
+}
+
+.p1{
+    color: #555555;
+    text-align: center;
+    font-size: 13px;
+        
+}
+
+.identifiants{
+    margin-top: 50px;
+    color: #555555;
+    font-size: 15px;
+}
+
+.mail, .nom{
+    margin-bottom: 20px; 
+
+}
+
+#mail, #name{
+    width: 90%;
+    padding: 13px ;
+   
+    
+}
+
+input{
+    margin-top: 5px;
+    border: 1px solid #c0bcbc;
+    border-radius: 5px;
+}
+
+.go{
+   
+    text-align: center;
+}
+
+.button1{
+    background-color: #028A3D;
+    color: aliceblue;
+    font-size:15px;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 2px 5px 0px #9c9797;
+    font-weight: bold;
+}
+
+.button1:hover{
+    cursor: pointer;
+    background-color: #03c055;
+}
+
+#spanName{
+    color: red;
+    font-size: 8px;
+
+}
+#spanMail{
+    color: red;
+    font-size: 8px;
+
+}
+
+/* PAGE 1 */
+
+.Page1{
+    display: none;
+    background-color: white;
+    width: 300px;
+    margin: auto;
+    padding: 35px 25px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 6px 0px #aaa9a9;
+
+}
+.p2{
+    color: #555555;
+    text-align: center;
+    font-size: 13px;
+}
+
+#prog{
+    width:100% ;
+    background-color: #028A3D;
+    height: 7px;
+    border-radius: 2px;
+}
+
+.avac{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: #555555;
+    gap: 10%;
+}
+.radio{
+    margin-top: 30px;
+}
+
+.ass{
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #555555;
+    padding: 5px;
+}
+
+.button2{
+    display: flex;
+    justify-content: space-between;
+    margin-top : 40px ;
+    margin-bottom: 25px;
+    
+        
+}
+
+#quitter{
+    color: white;
+    background-color: #EC880C;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 2px;
+}
+
+#suivant{
+    color: white;
+    background-color: #028A3D;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 2px;
+}
+
+#suivant:hover{
+    cursor: pointer;
+    background-color: #03c055;
+}
+
+#quitter:hover{
+    cursor: pointer;
+    background-color: #f19e39;
+}
+label{
+    display: inline-flex;
+    width: 90%;
+    height: 20px;
+}
+
+label:hover{
+    cursor:pointer;
+} 
+
+.ass:hover{
+    cursor:pointer;
+    border: 1px solid green;
+   
+} 
+
+/* PARTIE 3 */
+
+.end{
+    display: none;
+    background-color: white;
+    width: 300px;
+    margin: auto;
+    padding: 35px 25px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 6px 0px #aaa9a9;
+}
+.h1b{
+    font-size: 23px;
+    color: #555555;
+    text-align: center;
+    margin-top: 40px;
+}
+.p3{
+    color: #555555;
+    text-align: center;
+    font-size: 13px;
+    
+
+}
+
+.svg{
+    text-align: center;
+    /* height: 20px;
+    width: 20px; */
+    margin-top: 30px;
+}
+
+.cote{
+    text-align: center;
+    font-weight: bold;
+    color: #555555;
+    padding: 15px;
+}
+
+.btn{
+    text-align: center;
+}
+
+#accueil{
+    padding: 10px 50px;
+    color: white;
+    border: none;
+    background-color: #0880D6 ;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
