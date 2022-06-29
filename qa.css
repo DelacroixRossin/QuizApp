@@ -130,10 +130,11 @@ input{
 
 #prog{
     width:100% ;
-    background-color: #028A3D;
+    background-color: #0b75bb;
     height: 8px;
     border-radius: 2px;
     position: absolute;
+    border-radius: 5px;
 }
 
 .avac{
