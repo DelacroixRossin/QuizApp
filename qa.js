@@ -57,7 +57,7 @@ const Mesquiz = [
       "Douglas Crockford",
       "Sheryl San",
       "Brendan Eich",
-      "Alexandre Chambu",
+      "Andy Kook"
     ],
     correct: 2,
   },
@@ -81,7 +81,7 @@ const Mesquiz = [
   //Q5
       {
           question: 'Comment définir une fonction en JavaScript?',
-          reponse: ['function maFonction{}()', 'maFonction function()[]', 'function maFonction(){}','pas de bonne réponse'],
+          reponse: ['function maFonction{}()', 'maFonction function()[]', 'function maFonction(){}','Pas de bonne réponse'],
           correct: 2
       },
   //Q6
@@ -93,14 +93,14 @@ const Mesquiz = [
   //Q7
       {
           question: 'Qu\'est ce qu\'est JavaScript ?',
-          reponse: ['un langage de programmation', 'une application mobile', 'un serveur internet','un ordinateur'],
+          reponse: ['Un langage de programmation', 'Une application mobile', 'Un serveur internet','Un ordinateur'],
           correct: 0
       },
 
   //Q8
       {
           question: 'Qu\'est ce qui n\'est pas une données natives exisatntes en JavaScript ?',
-          reponse: ['String', 'Number', 'service','Boolean'],
+          reponse: ['String', 'Number', 'Service','Boolean'],
           correct: 2
       },
   //Q9
@@ -118,7 +118,7 @@ const Mesquiz = [
   //Q11
       {
           question: 'Que fait la fonction parsInt ?',
-          reponse: ['Convertir des nombres en entier', 'Convertir une partie d\'un nombre', 'Changer les chiffres','Trover un intervalle'],
+          reponse: ['Convertir des nombres en entier', 'Convertir une partie d\'un nombre', 'Changer les chiffres','Trouver un intervalle'],
           correct: 0
       },
   //Q12
@@ -136,7 +136,7 @@ const Mesquiz = [
   //Q14
       {
           question: 'Quel est le caractère d\'échappement en JavaScript ?',
-          reponse: ['//', '/', '/',' \\'] ,
+          reponse: ['//', '/+', '/',' \\'] ,
           correct: 3
       },
       //Q15
@@ -218,7 +218,7 @@ function erreur() {
     enterName.style.border = "1px solid red";
     return false;
   } else if (enterName.value.length < 2) {
-    spanName.innerText = "Entrez un nom valide";
+    spanName.innerText = "Le nom doit avoir au moins deux caractères";
     enterName.style.border = "1px solid red";
     return false;
   } else {
@@ -243,7 +243,7 @@ function erreurMail() {
     return false;
   }
   if (enterMail.value.match(mailformat)) {
-    spanMail.innerText = "Mail valide";
+    spanMail.innerText = "Format de mail valide";
     spanMail.style.color = "green";
     enterMail.style.border = "1px solid green";
     return true;
