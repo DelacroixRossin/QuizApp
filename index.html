@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>QuizApp</title>
+
+    <link rel="stylesheet" href="qa.css">
+</head>
+<!-- PAGE D'ACCUEIL -->
+
+<body>
+    <section class="Accueil">
+
+        <form id="form1">
+            <h1 class="h1a">JavaScript Quiz</h1>
+            <p class="p1">Evaluez vos connaissances en JavaScript en répondant aux questions que nous avons spécialement
+                sélectionnées pour vous. <br>
+                C'est fun et c'est gratuit.</p>
+
+            <div class="identifiants">
+
+                <div class="nom">
+                    <label for="name">Nom</label> <br>
+                    <input type="text" name="" id="name" placeholder="Entrez votre nom">
+                    <span id="spanName"></span>
+                </div>
+
+                <div class="mail">
+                    <label for="email">Email</label> <br>
+                    <input type="text" name="" id="mail" placeholder="Entrez votre adresse email">
+                    <span id="spanMail"></span>
+                </div>
+
+
+            </div>
+
+            <div class="go">
+                <button class="button1" id="go">Commencer</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- PAGE DES QUESTIONS -->
+
+    <section class="Page1">
+
+        <form id="form2">
+            <p class="p2" id="quiz">Question 1</p>
+
+            <div class="avac">
+                <p class="p2a"> Questions 1/<span id="nbreq"></span> </p>
+                <p class="sec"></p>
+            </div>
+
+            <div class="bar">
+                <progress id="prog" max="60"></progress>
+            </div>
+
+            <div class="radio">
+
+                <div class="ass">
+                    <input class="asr" type="radio" id="1" value="1" name="choix">
+                    <label for="1">texte ici</label>
+
+                </div>
+
+                <div class="ass">
+                    <input class="asr" type="radio" id="2" value="1" name="choix">
+                    <label for="2">texte ici</label>
+                </div>
+
+                <div class="ass">
+                    <input class="asr" type="radio" id="3" value="1" name="choix">
+                    <label for="3">texte ici</label>
+                </div>
+
+                <div class="ass">
+                    <input class="asr" type="radio" id="4" value="1" name="choix">
+                    <label for="4">texte ici</label>
+                </div>
+            </div>
+
+
+
+            <div class="button2">
+                <button id="quitter">Quitter</button>
+                <button id="suivant">Suivant</button>
+            </div>
+        </form>
+
+
+    </section>
+
+    <!-- PAGE DE FIN -->
+
+    <section class="end">
+
+        <form id="form3">
+            <h1 class="h1b" id="namef">Utilisateur</h1>
+
+            <p class="p3" id="mailf">email utilisateur</p>
+            <p class="felicitations"></p>
+
+            <div class="svg">
+                <svg width="110" height="110" viewBox="0 0 174 174" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M118.776 59.9844H110.806C109.073 59.9844 107.425 60.817 106.405 62.2443L79.6936 99.2873L67.5951 82.499C66.5756 81.0887 64.9443 80.2391 63.1941 80.2391H55.2248C54.1203 80.2391 53.4746 81.4965 54.1203 82.3971L75.2926 111.76C75.7927 112.458 76.4521 113.026 77.216 113.419C77.9799 113.811 78.8263 114.016 79.6851 114.016C80.5438 114.016 81.3903 113.811 82.1541 113.419C82.918 113.026 83.5774 112.458 84.0775 111.76L119.863 62.1424C120.526 61.2418 119.88 59.9844 118.776 59.9844Z"
+                        fill="#028A3D" />
+                    <path
+                        d="M87 10.875C44.9613 10.875 10.875 44.9613 10.875 87C10.875 129.039 44.9613 163.125 87 163.125C129.039 163.125 163.125 129.039 163.125 87C163.125 44.9613 129.039 10.875 87 10.875ZM87 150.211C52.098 150.211 23.7891 121.902 23.7891 87C23.7891 52.098 52.098 23.7891 87 23.7891C121.902 23.7891 150.211 52.098 150.211 87C150.211 121.902 121.902 150.211 87 150.211Z"
+                        fill="#028A3D" />
+                </svg>
+            </div>
+
+
+
+            <div>
+                <p class="cote"><span id="obt"></span>/<span id="tot"></span></p>
+            </div>
+            <div class="btn">
+                <button id="accueil">Accueil</button>
+            </div>
+
+        </form>
+    </section>
+
+    <script src="qa.js"></script>
+</body>
+
+</html>
